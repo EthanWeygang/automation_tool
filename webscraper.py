@@ -36,6 +36,8 @@ driver.get(str(input("Enter url of page you need to fill out: ")))
 
 time.sleep(4)
 
+input("Press enter when you're ready to start")
+
 panel_main = find_panel_main()
 fee_settings_rows = find_all_fee_settings_row()
 
